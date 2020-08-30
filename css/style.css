@@ -58,7 +58,7 @@
     color: #ffe36d;
   }
   
-  section {
+  main {
   
     width: 90%;
     margin: 0 auto;
@@ -90,4 +90,43 @@
 
   .icon-footer {
     width: 20px;
+  }
+
+  .principal ul li a {
+
+    color: #ffffff;
+  }
+
+  .principal ul {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 90%;
+    margin: 0 auto;
+
+    background-color: #FF6CB5;
+    color: #FFF;
+  }
+
+  .principal li {
+    line-height: 2.5;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  
+  }
+
+  button {
+    background-color: #ffe36d;
+    padding: 0 0.9rem 0 0.9rem;
+
+    border: 1px solid transparent;
+    border-radius: 5%;
   }
