@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" rel="stylesheet">
+    <script src="js/index.js" defer ></script>
     <title>Ada Lovelace</title>
 </head>
 <body>
@@ -69,7 +70,7 @@
 
     <h3>Conheça outras mulheres que fizeram história na tecnologia:</h3>
 
-    <nav>
+    
       <ul>
         <li>
          <a href="https://pt.wikipedia.org/wiki/Grace_Hoppe" target="_blank"> Grace Hopper<a/>
@@ -84,25 +85,28 @@
            <a href="https://pt.wikipedia.org/wiki/Katherine_Johnson" target="_blank">Katherine Johnson</a>
         </li>
       </ul>
-    </nav>
+    
 
     <h4>Quer saber mais sobre outras mulheres na história da programação?</h4>
 
     <form>
 
-        <label for="userNome">Seu nome</label>
+        <label for="userNome">Seu nome:</label>
         <input type="text" id="userNome"/>
 
-        <label for="userEmail">Seu email</label>
+        <label for="userTelefone">Seu telefone:</label>
+        <input type="float" id="userTelefone">
+
+        <label for="userEmail">Seu email:</label>
         <input type="email" id="userEmail"/>
 
-        <button>Enviar</button>
+        <button id="btn-enviar">Enviar</button>
 
     </form>
     
     <footer>
         <p>Feito com  <img src="assets/icon-heart.png" alt ="coração" class="icon-footer"/>  por Alice Cavalcanti</p>
     </footer>
-    
+
 </body>
 </html>
